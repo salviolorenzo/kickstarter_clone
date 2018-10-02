@@ -4,9 +4,14 @@ html, body{
 }
 body{
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif
 }
 li{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
 }
 /* Header */
 .header-content, .stats{
@@ -20,6 +25,7 @@ li{
 .logo-text{
     display: inline-block;
     margin-top: 20px;
+    
 }
 .header-left{
     float: left;
@@ -53,7 +59,7 @@ li{
     text-align: left;
     font-size: 12px;
     width: 24%;
-    padding:5px 0 0 2px;
+    padding:5px 2.5px 0 2px;
     border-right: 1px gray solid;
 }
 .stats p{
@@ -67,6 +73,7 @@ li{
 /* Feature */
 .featured{
     margin: 0 50px;
+    border-bottom: 1px solid black;
 }
 .projects nav ul{
     margin-top: 50px;
@@ -81,6 +88,8 @@ li{
 .main-body{
     width: 100%;
     display: block;
+    padding-bottom: 30px;
+    border-bottom: 1px black solid;
 }
 .main-body section{
     display:inline-block;
@@ -96,14 +105,14 @@ li{
 
 .main-body aside{
     width: 45%;
-    height: 100%;
+    margin:80px 0 0 0;
     display: inline-block;
 }
 
 .selector{
     border-bottom: 1px gray solid;
     padding: 0;
-    margin-left: 40px;
+    margin: 0 0 10px 40px;
 }
 
 .selector li{
@@ -111,3 +120,180 @@ li{
     padding-right: 10px;
     margin-top: 10px;
 }
+
+ .status{
+    margin: 0 0 0 40px;
+    padding: 0;
+}
+.status li{
+    height: 20%;
+    font-size: 12px;
+    min-height: 60px;
+    max-height: 70px;
+    padding: 10px 0;
+    border-bottom: 1px gray solid;
+}
+.status li img{
+    height: 80%;
+    float: left;
+    width: 30%;
+    padding-right: 25px;
+    max-height: 60px;
+}
+.status li h4, .status li p{
+    margin: 0 0 0 120px;
+    width: 60%;
+}
+.main-body button{
+    margin: 10px 0 0 40px;
+    background-color: lightgray;
+    padding: 5px;
+    color: black;
+}
+
+/* Projects we love */
+.we-love{
+    padding: 20px 0;
+    border-bottom: 1px black solid;
+}
+
+.we-love .container{
+    display: inline-block;
+    width: 22%;
+    margin: 0 5px;
+    vertical-align: top;
+    font-size: 12px;
+}
+.we-love .container img{
+    height: 40%;
+    width: 100%;
+}
+
+.daily-quote{
+    padding: 20px 0;
+    border-bottom: 1px black solid;
+}
+.daily-quote img{
+    width: 10%;
+    float: left;
+    padding: 20px;
+}
+
+.daily-quote h1, .daily-quote p, .daily-quote a{
+    width: 80%;
+    margin-left: 120px;
+}
+.daily-quote p, .daily-quote a{
+    font-size: 12px;
+}
+
+.services{
+    min-height: 300px;
+    padding-left: 30px;
+}
+
+.services img{
+    width: 40%;
+    height: 80%;
+    margin: 30px 30px 0 30px;
+}
+
+.reading{
+    padding-top: 50px;
+}
+
+.reading h4{
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+.reading .cards, .small-cards{
+    margin: 0 0 40px 20px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    border: 1px lightgray solid;
+    font-size: 12px;
+
+}
+
+.cards img{
+    width: 100%;
+    max-height: 400px;
+    vertical-align: top;
+    margin: 0;
+}
+
+.reading p{
+    padding: 5px 0 10px 10px;
+    margin: 0;
+}
+.reading a{
+    padding-left: 10px;
+}
+
+.small-cards{
+    min-height: 150px;
+}
+
+.small-cards p{
+    margin-top: 12px;
+}
+
+.subscribe{
+    min-height: 220px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.subscribe p{
+    max-width: 400px;
+    text-align: center; 
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.subscribe input, .subscribe button{
+    padding: 10px;
+    margin: 5px;
+}
+
+.subscribe button{
+    background-color: black;
+    color: white;
+}
+
+.tab-links ul{
+    width: 100%;
+    text-align: center;
+}
+.tab-links li{
+    display: inline-block;
+    padding: 0 10px 0 0 ;
+}
+
+.foot-links{
+    width: 80%;
+    margin-left: 100px;
+}
+
+.foot-links div{
+    display: inline-block;
+    width: 20%;
+    margin: 0 30px 0 0;
+}
+
+.foot-links ul{
+    padding: 0;
+}
+
+footer p{
+    margin: 0;
+    display: inline-block;
+}
+footer button{
+    float: right;
+}
+
+/* Media Queries */
